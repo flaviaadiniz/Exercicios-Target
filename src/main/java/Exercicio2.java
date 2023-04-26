@@ -30,10 +30,6 @@ public class Exercicio2 {
             n2 = fibonacci[i];
         }
 
-        for (int i : fibonacci) {
-            System.out.println(i);
-        }
-
         boolean resposta = false;
         for (int i : fibonacci) {
             if (i == num) {
